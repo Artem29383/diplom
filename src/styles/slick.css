@@ -1,0 +1,21 @@
+.mySlickSlider {
+  height: 100%;
+  user-select: auto!important;
+}
+
+.slick-list {
+  height: 100%;
+}
+
+.slick-track {
+  height: 100%;
+}
+
+.slick-slide {
+  width: calc(100% + 1px);
+}
+
+.slick-slide > div {
+  position: relative;
+  height: 100%;
+}
