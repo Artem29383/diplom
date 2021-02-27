@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/diplom/static/css/main.88ae2ed3.chunk.css",
+    "main.js": "/diplom/static/js/main.88c0e7ec.chunk.js",
+    "main.js.map": "/diplom/static/js/main.88c0e7ec.chunk.js.map",
+    "runtime-main.js": "/diplom/static/js/runtime-main.93c02c13.js",
+    "runtime-main.js.map": "/diplom/static/js/runtime-main.93c02c13.js.map",
+    "static/js/2.ac096d60.chunk.js": "/diplom/static/js/2.ac096d60.chunk.js",
+    "static/js/2.ac096d60.chunk.js.map": "/diplom/static/js/2.ac096d60.chunk.js.map",
+    "index.html": "/diplom/index.html",
+    "static/css/main.88ae2ed3.chunk.css.map": "/diplom/static/css/main.88ae2ed3.chunk.css.map",
+    "static/js/2.ac096d60.chunk.js.LICENSE.txt": "/diplom/static/js/2.ac096d60.chunk.js.LICENSE.txt",
+    "static/media/1.d143ad09.jpg": "/diplom/static/media/1.d143ad09.jpg",
+    "static/media/2.4507faae.jpg": "/diplom/static/media/2.4507faae.jpg",
+    "static/media/3.8c6f440b.jpg": "/diplom/static/media/3.8c6f440b.jpg",
+    "static/media/4.4ddbd221.jpg": "/diplom/static/media/4.4ddbd221.jpg",
+    "static/media/grass1.e38f29e2.png": "/diplom/static/media/grass1.e38f29e2.png",
+    "static/media/grass2.26b0c167.png": "/diplom/static/media/grass2.26b0c167.png",
+    "static/media/research.efa33305.png": "/diplom/static/media/research.efa33305.png",
+    "static/media/slick-theme.css": "/diplom/static/media/slick.c94f7671.ttf",
+    "static/media/telegramBotImage.1e964e24.png": "/diplom/static/media/telegramBotImage.1e964e24.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93c02c13.js",
+    "static/js/2.ac096d60.chunk.js",
+    "static/css/main.88ae2ed3.chunk.css",
+    "static/js/main.88c0e7ec.chunk.js"
+  ]
+}
