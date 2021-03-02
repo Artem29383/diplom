@@ -8,7 +8,9 @@ const Layout = ({ children }) => {
   return (
     <S.Root>
       <Header />
-      {children}
+      <S.Wrapper>
+        {children}
+      </S.Wrapper>
     </S.Root>
   );
 };

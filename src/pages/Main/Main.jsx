@@ -1,4 +1,6 @@
 import React from 'react';
+import { gql } from 'apollo-boost';
+
 
 import * as S from './Main.styled';
 import photo1 from '../../assets/sliderPhotos/1.jpg';
@@ -13,36 +15,38 @@ import Videos from '../../components/Videos';
 import Button from '../../components/Button';
 import Stories from '../Stories';
 import Slider from "../../components/Slider";
+import { useQuery } from "@apollo/client";
 
 const videoURL =
   'https://aroma-production.s3.eu-west-1.amazonaws.com/uploads/app_settings/a4f8e8f3_8184_415e_aebd_6fc89c85075c_%D7%95%D7%99%D7%93%D7%99%D7%90%D7%95%20%D7%9C%D7%99%D7%95%D7%98%D7%99%D7%95%D7%91%20%D7%A4%D7%90%D7%A8%D7%A7%20%D7%9E%D7%A9%D7%95%D7%9C%D7%91.mp4';
 
+const QUERY_REQ = gql`
+    {
+        homePages {
+            sliderImages {
+                id
+                url
+            }
+        }
+    }
+`;
+
 const Main = () => {
+  const { loading, error, data } = useQuery(QUERY_REQ);
+
+  if (loading) return <div style={{ height: '100vh' }} />;
+
   return (
     <S.Root>
       <S.BlockOne>
-         <Slider>
-          <S.Slide>
-            <S.WrapperImage>
-              <S.Image src={photo1} />
-            </S.WrapperImage>
-          </S.Slide>
-          <S.Slide>
-            <S.WrapperImage>
-              <S.Image src={photo2} />
-            </S.WrapperImage>
-          </S.Slide>
-          <S.Slide>
-            <S.WrapperImage>
-              <S.Image src={photo3} />
-            </S.WrapperImage>
-          </S.Slide>
-          <S.Slide>
-            <S.WrapperImage>
-              <S.Image src={photo4} />
-            </S.WrapperImage>
-          </S.Slide>
-         </Slider>
+        <Slider>
+          {data.homePages[0].sliderImages.map(image  =>
+            <S.Slide key={image.id}>
+              <S.WrapperImage>
+                <S.Image src={image.url} />
+              </S.WrapperImage>
+            </S.Slide>)}
+        </Slider>
         <S.Videos>
           <Videos videoURL={videoURL} />
         </S.Videos>

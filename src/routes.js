@@ -9,7 +9,7 @@ export default [
     exact: true,
     cache: false,
     component: Main,
-    title: 'Home',
+    title: 'Главная',
     layout: 'default',
   },
   {
@@ -17,7 +17,7 @@ export default [
     exact: true,
     cache: false,
     component: Gallery,
-    title: 'Gallery',
+    title: 'Галерея',
     layout: 'default',
   },
   {
@@ -25,7 +25,7 @@ export default [
     exact: true,
     cache: false,
     component: Contact,
-    title: 'Home',
+    title: 'Контакты',
     layout: 'default',
   },
 ];

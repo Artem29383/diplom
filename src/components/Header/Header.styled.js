@@ -1,8 +1,10 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
+import { HeaderHeight } from "../../constants";
 
 export const Root = styled.div`
   width: 100%;
-  height: 88px;
+  height: ${HeaderHeight.desktop}px;
+  position: fixed;
   box-shadow: rgb(0 0 0 / 15%) 0 2px 10px 0;
   background: rgb(255, 254, 251);
   z-index: 999;
@@ -11,6 +13,8 @@ export const Root = styled.div`
   display: flex;
   margin-bottom: 10px;
   align-items: center;
+  top: 0;
+  left: 0;
 `;
 
 export const LogoWrapper = styled.div`

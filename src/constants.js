@@ -3,3 +3,8 @@ export const ROUTES = {
   gallery: '/gallery',
   contact: '/contact',
 };
+
+
+export const HeaderHeight = {
+  desktop: 88,
+}
