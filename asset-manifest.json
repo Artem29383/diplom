@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/diplom/static/css/main.82dc2e2b.chunk.css",
-    "main.js": "/diplom/static/js/main.aca150fb.chunk.js",
-    "main.js.map": "/diplom/static/js/main.aca150fb.chunk.js.map",
+    "main.js": "/diplom/static/js/main.94b8d9c7.chunk.js",
+    "main.js.map": "/diplom/static/js/main.94b8d9c7.chunk.js.map",
     "runtime-main.js": "/diplom/static/js/runtime-main.93c02c13.js",
     "runtime-main.js.map": "/diplom/static/js/runtime-main.93c02c13.js.map",
     "static/js/2.7a6ac36d.chunk.js": "/diplom/static/js/2.7a6ac36d.chunk.js",
@@ -18,12 +18,13 @@
     "static/media/grass2.26b0c167.png": "/diplom/static/media/grass2.26b0c167.png",
     "static/media/research.efa33305.png": "/diplom/static/media/research.efa33305.png",
     "static/media/slick-theme.css": "/diplom/static/media/slick.c94f7671.ttf",
-    "static/media/telegramBotImage.1e964e24.png": "/diplom/static/media/telegramBotImage.1e964e24.png"
+    "static/media/telegramBotImage.1e964e24.png": "/diplom/static/media/telegramBotImage.1e964e24.png",
+    "static/media/videoCrop.d4a635d6.png": "/diplom/static/media/videoCrop.d4a635d6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.93c02c13.js",
     "static/js/2.7a6ac36d.chunk.js",
     "static/css/main.82dc2e2b.chunk.css",
-    "static/js/main.aca150fb.chunk.js"
+    "static/js/main.94b8d9c7.chunk.js"
   ]
 }
