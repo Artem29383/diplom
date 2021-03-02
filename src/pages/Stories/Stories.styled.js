@@ -31,7 +31,9 @@ export const TitleStories = styled.div`
   text-align: center;
 `;
 
-export const Card = styled.div``;
+export const Card = styled.div`
+cursor:pointer;
+`;
 
 export const CardImage = styled.img`
   width: 100%;
