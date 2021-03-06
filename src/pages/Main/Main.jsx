@@ -16,6 +16,8 @@ import Button from '../../components/Button';
 import Stories from '../Stories';
 import Slider from "../../components/Slider";
 import { useQuery } from "@apollo/client";
+import Insta from "../../components/Insta";
+import Instagram from "../../components/Insta";
 
 const videoURL =
   'https://aroma-production.s3.eu-west-1.amazonaws.com/uploads/app_settings/a4f8e8f3_8184_415e_aebd_6fc89c85075c_%D7%95%D7%99%D7%93%D7%99%D7%90%D7%95%20%D7%9C%D7%99%D7%95%D7%98%D7%99%D7%95%D7%91%20%D7%A4%D7%90%D7%A8%D7%A7%20%D7%9E%D7%A9%D7%95%D7%9C%D7%91.mp4';
@@ -38,6 +40,7 @@ const Main = () => {
 
   return (
     <S.Root>
+      <Instagram />
       <S.BlockOne>
         <Slider>
           {data.homePages[0].sliderImages.map(image  =>
