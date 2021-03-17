@@ -2,14 +2,18 @@
 
 import { createSlice } from '@reduxjs/toolkit';
 
-const usersSlice = createSlice({
-  name: 'users',
+const appSlice = createSlice({
+  name: 'app',
   initialState: {
-    collection: {},
-    fetching: true,
-    collectionFetched: false,
+    collection: [],
   },
-  reducers: {},
+  reducers: {
+    setPhotos(state, {payload}) {
+      state.collection = payload;
+    }
+  },
 });
 
-export default usersSlice.reducer;
+export const { actions } = appSlice;
+
+export default appSlice.reducer;

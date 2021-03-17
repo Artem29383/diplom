@@ -1,16 +1,8 @@
 import { connectRouter } from 'connected-react-router';
-import { all } from 'redux-saga/effects';
 
-import usersReducer from './users/slice';
-
-import usersSagas from './users/sagas';
+import appReducer from './users/slice';
 
 export const createRootReducer = history => ({
   router: connectRouter(history),
-  users: usersReducer,
+  app: appReducer,
 });
-
-// eslint-disable-next-line func-names
-export const rootSaga = function*() {
-  yield all([usersSagas()]);
-};

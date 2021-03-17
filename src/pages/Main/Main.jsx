@@ -40,7 +40,6 @@ const Main = () => {
 
   return (
     <S.Root>
-      <Instagram />
       <S.BlockOne>
         <Slider>
           {data.homePages[0].sliderImages.map(image  =>

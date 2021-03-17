@@ -87,7 +87,7 @@ export const ImageWrapper = styled.div`
 export const Image = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   
   &.scale-appear {
     transform: scale(1.2);
@@ -108,10 +108,14 @@ export const Form = styled.div`
 export const FormTitle = styled.div`
   font-weight: bold;
   font-size: 26px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 `;
 
 export const FormDescription = styled.div`
   font-size: 16px;
   word-break: break-word;
+`;
+
+export const Svg = styled.div`
+  margin-top: 20px;
 `;

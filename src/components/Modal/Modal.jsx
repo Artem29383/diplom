@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { CSSTransition } from 'react-transition-group';
-
-import imageUrl from './../../assets/sliderPhotos/3.jpg';
 
 import * as S from './Modal.styled';
 import FadeIn from "../FadeIn";
 import useModal from "../../hooks/useModal";
+import { InstagramIcon } from "../../styles/icons";
+import instagram from './../../assets/svg/instagram.svg';
 
-const Modal = ({ isShow, onHide }) => {
+const Modal = ({ isShow, onHide, data }) => {
   useModal(onHide, isShow);
 
   return (
@@ -36,18 +36,23 @@ const Modal = ({ isShow, onHide }) => {
                   timeout={1000}
                   classNames="scale"
                 >
-                  <S.Image src={imageUrl} />
+                  <S.Image src={data.media_url} />
                 </CSSTransition>
               </S.ImageWrapper>
               <S.Form>
                 <FadeIn time={300} isFade={isShow}>
-                  <S.FormTitle>Title</S.FormTitle>
+                  <S.FormTitle>Описание</S.FormTitle>
                 </FadeIn>
                 <FadeIn time={300} isFade={isShow}>
-                  <S.FormDescription>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium aperiam
-                    culpa ea, laborum natus, nulla praesentium, quasi quisquam quod repellendus soluta veniam? Ex in ipsam
-                    labore modi mollitia recusandae.</S.FormDescription>
+                  <S.FormDescription>{data.caption}</S.FormDescription>
                 </FadeIn>
+                <S.Svg>
+                  <a href={data.permalink} target="_blank">
+                    <InstagramIcon>
+                      <use xlinkHref={`${instagram}#instagram`} />
+                    </InstagramIcon>
+                  </a>
+                </S.Svg>
               </S.Form>
             </S.Content>
           </CSSTransition>
