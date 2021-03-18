@@ -5,7 +5,7 @@ export const StoriesSectionContent = styled.div`
   height: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
-  grid-gap: 0 15px;
+  grid-gap: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(1, 400px);
