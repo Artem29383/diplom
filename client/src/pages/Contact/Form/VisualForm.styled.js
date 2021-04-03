@@ -1,12 +1,13 @@
 import styled from "styled-components/macro";
 
 export const Root = styled.form`
-margin-top: 50px;`;
+width: 100%;
+margin: 25px auto 0 auto`;
 
 export const Line = styled.div`
     display: flex;
     flex-direction: column;
-    max-width: 310px;
+    max-width: 100%;
     margin-bottom: 20px;
 `;
 

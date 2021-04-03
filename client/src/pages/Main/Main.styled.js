@@ -6,14 +6,37 @@ export const BlockOne = styled.div`
   display: grid;
   grid-template-columns: 40% 60%;
   height: 650px;
+  
+  @media (max-width: 1400px) {
+    display: none;
+  }
+`;
+
+export const BlockTablet = styled.div`
+grid-template-columns: 100%;
+    grid-template-rows: auto;
+    height: auto;
+    display: none;
+    
+    @media (max-width: 1400px) {
+    display: grid;
+  }
 `;
 
 export const Videos = styled.div`
   height: 650px;
+  
+  @media (max-width: 768px) {
+    height: 350px;
+  }
 `;
 
 export const Slide = styled.div`
   height: 650px;
+  
+  @media (max-width: 768px) {
+    height: 350px;
+  }
 `;
 
 export const WrapperImage = styled.div`
@@ -34,6 +57,11 @@ export const BlockTwo = styled.div`
   min-height: 700px;
   justify-content: space-around;
   padding: 0 10%;
+  
+  @media (max-width: 1024px) {
+     height: 350px;
+     min-height: 350px;
+  }
 `;
 
 export const EucaliptusPng = styled.div`
@@ -66,6 +94,10 @@ export const MobileImage = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const MobileImagePng = styled.img`
@@ -87,4 +119,5 @@ export const TextBot = styled.div`
   font-weight: bold;
   font-size: 31px;
   max-width: 400px;
+  z-index: 2;
 `;

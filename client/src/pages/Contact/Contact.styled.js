@@ -27,7 +27,9 @@ export const Background = styled.div`
 
 export const WrapperContactForm = styled.div`
   min-height: calc(100vh - 88px);
-  padding: 50px 0 50px 50px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const ContactForm = styled.div`
@@ -35,16 +37,31 @@ export const ContactForm = styled.div`
   width: 100%;
   z-index: 2;
   height: auto;
+  margin: 10px;
   background: white;
   padding: 25px 15px 1px 20px;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const Title  = styled.div`
-font-size: 20px;`;
+font-size: 32px;
+
+  @media (max-width: 768px) {
+    font-size: 26px;
+  }
+`;
 
 export const Description  = styled.div`
   font-weight: 700;
   margin-top: 20px;
-  max-width: 240px;
-  text-align: left;
+  max-width: 100%;
+  text-align: center;
+  font-size: 24px;
+  
+  @media (max-width: 768px) {
+    font-size: 19px;
+  }
 `;

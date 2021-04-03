@@ -57,6 +57,11 @@ export const Content = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   
+  @media (max-width: 1024px) {
+      margin: 10px;
+    grid-template-columns: 1fr;
+  }
+  
   &.fall-appear {
     transform: translateY(-200%);
   }

@@ -15,6 +15,10 @@ export const Root = styled.div`
   align-items: center;
   top: 0;
   left: 0;
+  
+  @media (max-width: 500px) {
+    padding: 0 15px;
+  }
 `;
 
 export const LogoWrapper = styled.div`
@@ -22,6 +26,10 @@ export const LogoWrapper = styled.div`
   width: 100%;
   height: 63px;
   margin-right: 50px;
+  
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Logo = styled.img`
@@ -40,4 +48,14 @@ export const Li = styled.li`
   color: #404040;
   font-weight: 500;
   cursor: pointer;
+  
+  
+  
+  @media (max-width: 768px) {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 420px) {
+    font-size: 18px;
+  }
 `;

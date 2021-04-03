@@ -15,4 +15,5 @@ export const Button = styled.button`
   font-weight: bold;
   padding: ${({ padding }) => padding};
   min-width: 145px;
+  z-index: 2;
 `;

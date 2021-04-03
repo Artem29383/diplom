@@ -3,11 +3,11 @@ const util = require('util');
 
 
 const mailer = mailgun({
-  apiKey: '19da35a0925427778c9044cd5869341b-73e57fef-ae36c0df',
-  domain: 'sandbox31daab08795740e9a9cb17495d46b917.mailgun.org',
+  apiKey: process.env.API_KEY,
+  domain: process.env.DOMAIN,
 });
 
-const list = mailer.lists(`diplom@sandbox31daab08795740e9a9cb17495d46b917.mailgun.org`);
+const list = mailer.lists(process.env.LIST);
 
 const messagesService = mailer.messages();
 const members = list.members();

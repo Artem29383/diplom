@@ -8,7 +8,12 @@ export const StoriesSectionContent = styled.div`
   grid-gap: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(1, 400px);
+    grid-template-rows: auto;
+  
+  @media (max-width: 1024px) {
+  grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const Card = styled.div`
