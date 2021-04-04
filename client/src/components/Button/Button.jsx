@@ -6,9 +6,10 @@ const Button = ({
   fontSize = 13,
   margin = '20px auto 0 0',
   padding = '6px 25px',
+  onClick = () => {}
 }) => {
   return (
-    <S.Button padding={padding} margin={margin} fontSize={fontSize}>
+    <S.Button onClick={onClick} padding={padding} margin={margin} fontSize={fontSize}>
       {children}
     </S.Button>
   );

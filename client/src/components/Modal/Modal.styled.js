@@ -87,6 +87,10 @@ export const Content = styled.div`
 export const ImageWrapper = styled.div`
   height: 100%;
   overflow: hidden;
+  
+  @media (max-height: 800px) {
+    height: 250px;
+  }
 `;
 
 export const Image = styled.img`
@@ -108,6 +112,10 @@ export const Image = styled.img`
 export const Form = styled.div`
   height: 100%;
   padding: 60px 30px 20px;
+  
+  @media (max-height: 800px) {
+    padding: 10px 30px 20px 30px;
+  }
 `;
 
 export const FormTitle = styled.div`
@@ -123,4 +131,19 @@ export const FormDescription = styled.div`
 
 export const Svg = styled.div`
   margin-top: 20px;
+  
+  a {
+    display: flex;
+    align-items: center;
+    
+    p {
+      margin-left: 5px;
+    }
+
+    &:hover {
+      p {
+        text-decoration: underline;
+      }
+    }
+  }
 `;

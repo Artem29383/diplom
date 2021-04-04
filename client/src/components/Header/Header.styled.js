@@ -16,8 +16,13 @@ export const Root = styled.div`
   top: 0;
   left: 0;
   
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
+  
   @media (max-width: 500px) {
-    padding: 0 15px;
+    padding: 0 10px;
   }
 `;
 

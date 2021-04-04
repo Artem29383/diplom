@@ -8,6 +8,10 @@ export const BlockOne = styled.div`
   height: 650px;
   
   @media (max-width: 1400px) {
+    grid-template-columns: 50% 50%;
+  }
+  
+  @media (max-width: 1024px) {
     display: none;
   }
 `;
@@ -18,7 +22,7 @@ grid-template-columns: 100%;
     height: auto;
     display: none;
     
-    @media (max-width: 1400px) {
+    @media (max-width: 1024px) {
     display: grid;
   }
 `;

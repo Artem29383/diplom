@@ -17,7 +17,8 @@ export const StoriesSectionContent = styled.div`
 `;
 
 export const Card = styled.div`
-cursor:pointer;
+  cursor:pointer;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
 `;
 
 export const CardImage = styled.img`

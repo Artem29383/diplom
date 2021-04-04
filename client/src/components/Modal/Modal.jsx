@@ -51,6 +51,7 @@ const Modal = ({ isShow, onHide, data }) => {
                     <InstagramIcon>
                       <use xlinkHref={`${instagram}#instagram`} />
                     </InstagramIcon>
+                    <p>Перейти</p>
                   </a>
                 </S.Svg>
               </S.Form>
