@@ -88,7 +88,7 @@ export const ImageWrapper = styled.div`
   height: 100%;
   overflow: hidden;
   
-  @media (max-height: 800px) {
+  @media (max-height: 800px) and (max-width: 1024px) {
     height: 250px;
   }
 `;
