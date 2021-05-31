@@ -125,3 +125,18 @@ export const TextBot = styled.div`
   max-width: 400px;
   z-index: 2;
 `;
+
+
+export const StoriesSection = styled.div`
+  min-height: 600px;
+  padding: 50px 9%;
+  background: rgb(237, 248, 245);
+  position: relative;
+`;
+
+export const TitleStories = styled.div`
+  font-weight: bold;
+  line-height: 1.17;
+  font-size: 46px;
+  text-align: center;
+`;

@@ -7,7 +7,7 @@ import useAction from "../../hooks/useAction";
 import { actions } from '../../models/users/slice';
 
 let instance = axios.create();
-const token = 'IGQVJYTUtHc2V4QnZAaWUY2VWYwWmowVHc0WFJGSjhKVmplcXJ5RXRCQnRjTkZAObFJxRW1uVThpSGc4UnNZAVVFoaTY5UmNROEFoMGlTdnZAVZADIyTFRQLThuVVZArSk00c25sRVB4b1dwVTdiUk9Dd2VaagZDZD';
+const token = 'IGQVJXOXhVU05xX3ZAtdlNvanR1S3NHMVpBTDNxTWF3NHRleWwxdGJlbnhXQjdpM0lDZAVQyWlN2Mk1YVjV4M19fNFJIcHFiTW56VF9QYktsZAmV3bEZADd2VqMHlwQ0puMWdwLXpManItdlNTRm9DLVZALTQZDZD';
 
 delete instance.defaults.headers.common['X-CSRF-TOKEN'];
 
