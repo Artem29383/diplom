@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/diplom/static/css/main.82dc2e2b.chunk.css",
-    "main.js": "/diplom/static/js/main.708057f1.chunk.js",
-    "main.js.map": "/diplom/static/js/main.708057f1.chunk.js.map",
+    "main.css": "/diplom/static/css/main.76d60226.chunk.css",
+    "main.js": "/diplom/static/js/main.f772d076.chunk.js",
+    "main.js.map": "/diplom/static/js/main.f772d076.chunk.js.map",
     "runtime-main.js": "/diplom/static/js/runtime-main.93c02c13.js",
     "runtime-main.js.map": "/diplom/static/js/runtime-main.93c02c13.js.map",
-    "static/js/2.d0ee868a.chunk.js": "/diplom/static/js/2.d0ee868a.chunk.js",
-    "static/js/2.d0ee868a.chunk.js.map": "/diplom/static/js/2.d0ee868a.chunk.js.map",
+    "static/js/2.63753467.chunk.js": "/diplom/static/js/2.63753467.chunk.js",
+    "static/js/2.63753467.chunk.js.map": "/diplom/static/js/2.63753467.chunk.js.map",
     "index.html": "/diplom/index.html",
-    "static/css/main.82dc2e2b.chunk.css.map": "/diplom/static/css/main.82dc2e2b.chunk.css.map",
-    "static/js/2.d0ee868a.chunk.js.LICENSE.txt": "/diplom/static/js/2.d0ee868a.chunk.js.LICENSE.txt",
+    "static/css/main.76d60226.chunk.css.map": "/diplom/static/css/main.76d60226.chunk.css.map",
+    "static/js/2.63753467.chunk.js.LICENSE.txt": "/diplom/static/js/2.63753467.chunk.js.LICENSE.txt",
     "static/media/contactback.e98fe845.jpeg": "/diplom/static/media/contactback.e98fe845.jpeg",
     "static/media/grass1.e38f29e2.png": "/diplom/static/media/grass1.e38f29e2.png",
     "static/media/grass2.26b0c167.png": "/diplom/static/media/grass2.26b0c167.png",
-    "static/media/instagram.15d43e76.svg": "/diplom/static/media/instagram.15d43e76.svg",
+    "static/media/instagram.9089f4b8.svg": "/diplom/static/media/instagram.9089f4b8.svg",
     "static/media/research.efa33305.png": "/diplom/static/media/research.efa33305.png",
     "static/media/slick-theme.css": "/diplom/static/media/slick.c94f7671.ttf",
     "static/media/telegramBotImage.1e964e24.png": "/diplom/static/media/telegramBotImage.1e964e24.png",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.93c02c13.js",
-    "static/js/2.d0ee868a.chunk.js",
-    "static/css/main.82dc2e2b.chunk.css",
-    "static/js/main.708057f1.chunk.js"
+    "static/js/2.63753467.chunk.js",
+    "static/css/main.76d60226.chunk.css",
+    "static/js/main.f772d076.chunk.js"
   ]
 }
